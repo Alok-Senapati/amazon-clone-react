@@ -1,0 +1,161 @@
+.orderPreview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 80px auto;
+  border: 2px solid lightgoldenrodyellow;
+  background-color: bisque;
+  padding: 30px;
+  border-radius: 5px;
+  transform: scale(0);
+  animation: animate-preview 1.5s 0.5s 1 forwards;
+}
+
+@keyframes animate-preview {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.orderPreview__addressContainer,
+.orderPreview__cartItemContainer,
+.orderPreview__total {
+  display: flex;
+  width: 100%;
+  margin: 0px 10px;
+  padding: 10px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid rgb(161, 146, 146);
+  align-items: center;
+}
+
+.orderPreview__addressContainer > h2,
+.orderPreview__cartItemContainer > h2,
+.orderPreview__total > h2 {
+  width: 400px;
+  height: 100%;
+}
+
+.orderPreview__address,
+.orderPreview__total > h3 {
+  margin-left: 25px;
+  font-size: 18px;
+}
+
+.orderPreview > div > button {
+  margin-top: 20px;
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 200px;
+  height: 50px;
+  border: 1px solid;
+  font-size: 18px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  outline: none;
+  border-radius: 2px;
+}
+
+.orderPreview > div > button:active {
+  transform: scale(0.99);
+  outline: none;
+}
+.orderPreview > div > button:hover {
+  cursor: pointer;
+}
+.payment {
+  position: absolute;
+  background-color: rgba(112, 108, 108, 0.479);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment__window {
+  margin: auto;
+  width: 450px;
+  height: fit-content;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid;
+  position: relative;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+
+.animate__paymentWindow {
+  transform: scale(0);
+  animation: animate-payment-window 1.5s 0.3s 1 forwards;
+}
+
+@keyframes animate-payment-window {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.payment__cardForm {
+  padding: 2px;
+}
+
+.payment__cardForm > button {
+  margin-top: 10px;
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 120px;
+  height: 40px;
+  border: 1px solid;
+  font-size: 18px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  outline: none;
+  border-radius: 2px;
+}
+
+.payment__cardForm > button:active {
+  transform: scale(0.99);
+  outline: none;
+}
+
+.payment__cardForm > p {
+  color: red;
+}
+
+.payment__cardForm > button:hover {
+  cursor: pointer;
+}
+
+.payment__button {
+  float: left;
+}
+
+.payment__goback {
+  float: right;
+}
+
+.StripeElement {
+  margin: 5px;
+  width: 100%;
+}
+
+.payment__cardDetails {
+  padding: 20px 0px;
+}

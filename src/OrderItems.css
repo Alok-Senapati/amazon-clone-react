@@ -1,0 +1,44 @@
+.orderItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 30px auto;
+  border: 2px solid lightgoldenrodyellow;
+  background-color: bisque;
+  padding: 30px;
+  border-radius: 5px;
+  transform: scale(0);
+  animation: animate-preview 1.5s 0.5s 1 forwards;
+}
+
+@keyframes animate-preview {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.orderItem__addressId {
+  display: flex;
+  font-size: 12px;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(173, 171, 171);
+}
+
+.orderItem__items {
+  border-bottom: 2px solid rgb(173, 171, 171);
+  width: 100%;
+}
+
+.orderItem__total {
+  margin-top: 15px;
+}
