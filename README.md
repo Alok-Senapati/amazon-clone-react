@@ -1,68 +1,51 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# **Fully Functional clone of Amazon e-commerce web-site**
 
-## Available Scripts
+## **Deployed app link**
 
-In the project directory, you can run:
+- [Click Here](https://challenge-3c812.firebaseapp.com/) to visit the app.
 
-### `npm start`
+<br />
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## **Features of the app**
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- Creating account and Sign in using Email and Password
+- Add products to Cart.
+- Navigate to cart and check the total amount.
+- Proceed to checkout providing the Delivery address.
+- Make Payment.
+- See your Ordered products.
 
-### `npm test`
+<br />
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **Technlogy Used**
 
-### `npm run build`
+<img src="https://www.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" width="100px" height="auto">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS7d4mxzJYMyUmVLAROOPtBWGt5aLpP3ByvwA&usqp=CAU" width="100px" height="auto">
+<img src="https://raw.githubusercontent.com/jovotech/jovo-marketplace/master/thumbnails/jovo-db-firestore.png" width="100px" height="auto">
+<img src="https://cdn.freebiesupply.com/logos/thumbs/2x/nodejs-1-logo.png" width="100px" height="auto">
+<img src="https://ioetraders.com/storage/2019/12/stripe-payment-method.png" width="100px" height="auto">
+<br/>
+<br/>
+<hr />
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React** - React is used to design the front end. It's context api is used for data binding.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- **Firebase** - Firebase is used as backend for user authentication as well as hosting and deploying cloud function.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **FireStore** - FireStore is NoSQL realtime database provided by Firebase which is used to store orders of a particular user.
 
-### `npm run eject`
+- **Nodejs** - Node is ised with express to deploy an api which will fetch the client secret for a payment. This api is deployed using node and express in Firebase Cloud Functions.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **Stripe** - Stripe is used for Processing of the Payment.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## **References**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- [Firebase Documentation](https://firebase.google.com/docs/?gclid=Cj0KCQjwqfz6BRD8ARIsAIXQCf2GWa6Ac8DXzDjLew51pSqpvi4aWVGwWo_8uaA0wK2YlA_3iCQ94VoaAoXdEALw_wcB)
 
-## Learn More
+* [Stripe API Documentation](https://stripe.com/docs/api/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* [React Documentation](https://reactjs.org/docs/getting-started.html)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* [Clever Programmers Channel](https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ)
