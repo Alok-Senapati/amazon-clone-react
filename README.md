@@ -19,12 +19,26 @@
 
 ## **Technlogy Used**
 
-<img src="https://www.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" width="100px" height="auto">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS7d4mxzJYMyUmVLAROOPtBWGt5aLpP3ByvwA&usqp=CAU" width="100px" height="auto">
-<img src="https://raw.githubusercontent.com/jovotech/jovo-marketplace/master/thumbnails/jovo-db-firestore.png" width="100px" height="auto">
-<img src="https://cdn.freebiesupply.com/logos/thumbs/2x/nodejs-1-logo.png" width="100px" height="auto">
-<img src="https://ioetraders.com/storage/2019/12/stripe-payment-method.png" width="100px" height="auto">
-<br/>
+<br />
+
+<table>
+    <tr>
+        <td>
+            <img src="https://www.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" width="100px" height="auto">
+        </td>
+        <td>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS7d4mxzJYMyUmVLAROOPtBWGt5aLpP3ByvwA&usqp=CAU" width="100px" height="auto">
+        </td>
+        <td>
+            <img src="https://raw.githubusercontent.com/jovotech/jovo-marketplace/master/thumbnails/jovo-db-firestore.png" width="100px" height="auto">
+        </td>
+        <td>
+            <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/nodejs-1-logo.png" width="100px" height="auto">
+        </td>
+        <td>
+            <img src="https://ioetraders.com/storage/2019/12/stripe-payment-method.png" width="100px" height="auto">
+        </td>
+</table>
 <br/>
 <hr />
 
